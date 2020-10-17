@@ -1,0 +1,8 @@
+push_github.sh
+push_github_new.sh
+.DS_Store
+_posts/.DS_Store
+images/.DS_Store
+_posts/ARCHIVED-POSTS/*
+images/ARCHIVED_IMAGES/*
+earthinversion.code-workspace
