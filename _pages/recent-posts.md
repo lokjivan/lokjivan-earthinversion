@@ -5,6 +5,4 @@ permalink: "/recent-posts/"
 mathjax: "true"
 classes:
   - wide
-sidebar:
-  nav: "docs"
 ---

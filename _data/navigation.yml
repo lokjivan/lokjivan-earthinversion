@@ -1,37 +1,8 @@
 # main links
 main:
-  - title: 'blogPosts'
+  - title: 'Posts'
     url: /recent-posts/
-  - title: 'postsGallery'
-    url: /gallery/
-  - title: 'geophysicsPosts'
-    url: /geophysics-posts/
-  - title: 'webApps'
-    url: /web-computing/
-  - title: 'myResearch'
-    url: /research/
-  - title: 'lifeHacks'
-    url: /lifehacks/
-  - title: 'aboutMe'
+  - title: 'Stories'
+    url: /stories/
+  - title: 'About Me'
     url: /about-me/
-  - title: 'writeMe'
-    url: /contact-form/
-
-
-docs:
-  - title: Other Posts/Pages
-    children:
-      - title: "Posts Gallery"
-        url: /gallery/
-      - title: "Geophysics"
-        url: /recent-posts/#geophysics
-      - title: "Python"
-        url: /recent-posts/#python
-      - title: "Web Apps"
-        url: /web-computing/
-      - title: "Research Works"
-        url: /research/
-      - title: "Contact Me"
-        url: /contact-form/
-      - title: "iescoders.com"
-        url: https://iescoders.com

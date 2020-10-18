@@ -1,5 +1,14 @@
 # /_data/authors.yml
 
+Anil Kumar Roy:
+  name        : "Anil Kumar Roy"
+  bio         : "Social Issues"
+  avatar      : "/images/anilphoto.jpeg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:dranilkumarroy@gmail.com"
+
 Utpal Kumar:
   name        : "Utpal Kumar"
   bio         : "Data Science, Computational Geophysics, Web Computing"
@@ -9,11 +18,3 @@ Utpal Kumar:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:utpalkumar50@gmail.com"
 
-
-Balaji Kumar Seela:
-  name        : "Balaji Kumar Seela"
-  bio         : "Atmospheric Physics"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:seelabalaji@gmail.com"
