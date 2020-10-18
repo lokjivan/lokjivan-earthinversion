@@ -1,8 +1,6 @@
 # main links
 main:
-  - title: 'Posts'
+  - title: 'All Posts'
     url: /recent-posts/
-  - title: 'Stories'
-    url: /stories/
   - title: 'About Me'
     url: /about-me/

@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: "Posts"
+title: "All Posts"
 permalink: "/recent-posts/"
 classes:
   - wide
