@@ -14,13 +14,14 @@
       {% endif %}
       {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
+      {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
+      {% endfor %}
+      {% if page.sidebar.nav %}
+      {% include nav_list nav=page.sidebar.nav %}
+      
       {% if s.reader_count %}
         <p class="page_readers"><a href="http://feeds.feedburner.com/lokjivan/wuQM"><img src="http://feeds.feedburner.com/~fc/lokjivan/wuQM?bg=99CCFF&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a></p>
       {% endif %}
-      {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
-    {% endfor %}
-    {% if page.sidebar.nav %}
-      {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
   {% endif %}
   </div>
