@@ -52,9 +52,52 @@
   }
 }
 
+// .page__footer-copyright {
+//   font-family: $global-font-family;
+//   font-size: $type-size-7;
+// }
+
+.form-body {
+  display: grid;
+  align-items: center;
+}
+
 .page__footer-copyright {
   font-family: $global-font-family;
-  font-size: $type-size-7;
+  font-size: $type-size-6;
+  margin: auto;
+  text-align: center;
+}
+.page_readers {
+  margin: auto;
+  text-align: center;
+}
+
+.newsletter-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > input {
+    flex: 1 1 10ch;
+    margin: 0.5rem;
+
+    &[type="email"] {
+      flex: 3 1 30ch;
+    }
+  }
+}
+
+input {
+  border: none;
+  background: #ededed;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1rem;
+
+  &[type="submit"] {
+    background: hotpink;
+    color: white;
+    box-shadow: 0 0.75rem 0.5rem -0.5rem #ededed;
+  }
 }
 
 .page__footer-follow {
