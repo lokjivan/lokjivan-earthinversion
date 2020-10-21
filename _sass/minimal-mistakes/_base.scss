@@ -488,7 +488,10 @@ input[type="submit"],
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
-
+.page_readers {
+  margin: auto;
+  text-align: center;
+}
 @media only screen and (max-width: 1026px) {
   .cardDiv {
     display: none !important;
